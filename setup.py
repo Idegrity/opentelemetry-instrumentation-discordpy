@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="opentelemetry-instrumentation-discordpy",
-    version="0.1.1",
+    version="0.1.2",
     author="Cookie",
     author_email="cookie@idegrity.com",
     description="OpenTelemetry instrumentation for discord.py bots",
