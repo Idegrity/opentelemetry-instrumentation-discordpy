@@ -60,6 +60,10 @@ async def echo(ctx, *, message: str):
     await ctx.send(message)
 ```
 
+For a basic practical example of setting up a bot with OpenTelemetry instrumentation, see the [basic bot example](https://github.com/Idegrity/opentelemetry-instrumentation-discordpy/blob/main/examples/basic_bot.py).
+
+For a more advanceced practical example of setting up a bot with OpenTelemetry instrumentation, see the [advanced bot example](https://github.com/Idegrity/opentelemetry-instrumentation-discordpy/blob/main/examples/advanced_bot.py).
+
 ## Configuration
 
 Refer to the [documentation](./docs/usage.md) for detailed configuration options and advanced usage.

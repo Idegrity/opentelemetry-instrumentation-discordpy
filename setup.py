@@ -8,11 +8,11 @@ setup(
     description="OpenTelemetry instrumentation for discord.py bots",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourgithub/opentelemetry-instrumentation-discordpy",
+    url="https://github.com/Idegrity/opentelemetry-instrumentation-discordpy",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
