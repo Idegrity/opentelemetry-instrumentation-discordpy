@@ -1,0 +1,4 @@
+opentelemetry-api>=1.0.0
+opentelemetry-sdk>=1.0.0
+opentelemetry-instrumentation>=0.13b0
+discord.py>=1.7.3
