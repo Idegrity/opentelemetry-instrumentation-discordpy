@@ -74,7 +74,7 @@ Contributions are welcome! See [CONTRIBUTING.md](./docs/contributing.md) for how
 
 ## License
 
-This library is licensed under the [MIT License](LICENSE).
+This library is licensed under the [BSD License](LICENSE).
 
 ## Support
 
