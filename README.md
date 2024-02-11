@@ -66,15 +66,15 @@ For a more advanceced practical example of setting up a bot with OpenTelemetry i
 
 ## Configuration
 
-Refer to the [documentation](./docs/usage.md) for detailed configuration options and advanced usage.
+Refer to the [documentation](./docs/usage.md) for detailed configuration options and advanced usage. (This is WIP)
 
 ## Contributing
 
-Contributions are welcome! See [CONTRIBUTING.md](./docs/contributing.md) for how to get started.
+Contributions are welcome! See [CONTRIBUTING.md](https://github.com/Idegrity/opentelemetry-instrumentation-discordpy/blob/main/docs/CONTRIBUTING.md) for how to get started.
 
 ## License
 
-This library is licensed under the [BSD License](LICENSE).
+This library is licensed under the [BSD License](https://github.com/Idegrity/opentelemetry-instrumentation-discordpy/blob/main/LICENSE).
 
 ## Support
 
