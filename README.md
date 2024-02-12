@@ -8,6 +8,25 @@ This library provides OpenTelemetry instrumentation for bots built with `discord
 - Decorators for manual instrumentation of bot commands and event handlers.
 - Easy integration with OpenTelemetry's ecosystem for observability and monitoring.
 
+
+## Features Overview
+
+The OpenTelemetry Instrumentation for Discord.py is designed to enhance the observability of your Discord bots, providing detailed insights into their operations and interactions. Here are the key features currently implemented:
+
+- **Automatic Tracing**: Automatically instruments your bot to trace key Discord events and activities, ensuring comprehensive visibility with minimal setup.
+
+- **Manual Tracing Support**: Offers decorators and utilities for manual instrumentation, allowing you to tailor tracing to your bot's specific needs and workflows.
+
+- **`send_message` Instrumentation**: Traces calls to `send_message`, providing insights into message sending operations, including execution times and potential bottlenecks.
+
+- **`edit_message` Instrumentation**: Captures detailed information about `edit_message` operations, enabling you to track how message edits affect bot performance and user interactions.
+
+- **`on_message` Event Tracing**: Automatically traces the `on_message` event, offering visibility into message processing and the bot's responsiveness to user messages.
+
+These features are designed to give developers and operators comprehensive insights into the behavior and performance of their Discord bots, facilitating better monitoring, troubleshooting, and optimization.
+
+Do note, this build is currently in alpha so the above featureset is quite small. I will do more to edit it as I get time. 
+
 ## Installation
 
 Install this package with pip:
