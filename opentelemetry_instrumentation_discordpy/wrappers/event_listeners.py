@@ -1,5 +1,5 @@
 from opentelemetry import trace
-from opentelemetry.instrumentation.utils import wrap as otel_wrap, unwrap as otel_unwrap
+from ..utils import wrap as otel_wrap, unwrap as otel_unwrap
 
 
 def wrap_event_listeners():

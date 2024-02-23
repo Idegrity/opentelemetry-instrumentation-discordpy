@@ -1,6 +1,6 @@
 from opentelemetry import trace
 from opentelemetry.instrumentation.instrumentor import BaseInstrumentor
-from opentelemetry.instrumentation.utils import unwrap as otel_unwrap, wrap as otel_wrap
+from .utils import wrap as otel_wrap, unwrap as otel_unwrap
 
 
 class DiscordPyInstrumentor(BaseInstrumentor):
